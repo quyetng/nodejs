@@ -1,0 +1,58 @@
+this tutorial from https://www.youtube.com/watch?v=dSQ1CYLHWYM&index=6&list=PL55RiY5tL51rajp7Xr_zk-fCFtzdlGKUp
+
+express shoppingcart --hbs
+npm install
+npm start
+
+npm install --save express-handlebars
+
+using bootstrap, awesomefont, and jquery, mongodb
+
+npm install --save mongoose
+
+install mongo
+sudo apt-get install -y mongodb-org
+sudo service mongod start
+
+check log at /var/log/mongodb/mongod.log
+
+create database
+node product-seeder.js
+
+mongo
+use fishstore
+db.products.find() to verify data
+npm install csurf --save
+npm install --save express-session
+npm install csurf --save passport
+npm install csurf --save bcrypt-nodejs
+npm install csurf --save connect-flash
+
+passport strategies
+npm install csurf --save passport-local
+npm install passport
+npm install express-validator
+npm install npm@latest -g
+
+// uninstall
+sudo apt-get remove nodejs
+sudo apt-get remove npm
+
+sudo apt-get update
+
+check
+which node
+which npm
+
+or remove by
+sudo apt-get purge nodejs npm
+
+
+sudo apt-get update
+sudo apt-get install build-essential checkinstall libssl-dev
+ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash 
+
+ nvm install 8.1
+
+ start server
+ npm start
